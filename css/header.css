@@ -1,0 +1,39 @@
+header{
+    width:100%;
+    background-color: grey;
+    display:grid;
+    grid-template-rows:repeat(8,20px);
+    grid-template-columns: 1.5fr 6fr 1.5fr;
+    justify-content: space-around;
+    text-align: center
+    
+    
+}
+
+nav>.nav-item>a{
+    color:#4e4c4c;
+    font-size:16px;
+    font-family: cursive; 
+}
+
+.header-image1{
+    grid-row:3/7;
+    background-color: #e7e2e2;
+    
+
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    grid-row:2/9;
+    background-color:transparent;
+    padding-top: 10px
+}
+
+.nav-item{
+    background-color: #c5bdbd;
+    border:1px solid black;
+    width:10vw;
+    height:80%;
+    border-radius:10px
+}
