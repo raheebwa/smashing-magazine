@@ -33,12 +33,13 @@
     grid-column: 3/5
 }
 .center-div{
-    grid-row:2;
+    grid-row:1;
     grid-column: 2/4;
     text-align: center;
     display:flex;
     flex-direction: column;
    font-size:20px;
+   margin-top:30px
 }
 
 .div1 ,.div2{
@@ -50,4 +51,38 @@
 .div2{
     width:20%
 }
+.image{
+    /* width:20%; */
+    height:20%;
+    /* background-color: #a09c9c; */
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 25px
+}
+
+.write-up{
+    /* background-color: grey; */
+    width:60%;
+    height:40%;
+    font-size:28px;
+    padding:10px;
+    margin-top:10px ;
+    line-height: 1.6;
+    margin-left:25px
+}
+
+.divine{
+    display:flex;
+    margin-top:40px;
+    margin-left: 25px;
+    font-weight:bold
+
+}
+
+.strategy , .let{
+    /* background-color: #5e5454; */
+    padding:10px
+}
+
+
 
