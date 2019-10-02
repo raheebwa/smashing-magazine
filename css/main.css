@@ -41,7 +41,6 @@
   flex-direction: column;
   font-size: 26px;
   font-family: 'Nunito Sans', sans-serif;
-  font-style: bold;
   font-weight: 800;
   margin-top: 30px;
   padding: 20px;
@@ -81,7 +80,6 @@
   line-height: 1.4;
   margin-left: 48px;
   font-family: 'Nunito Sans', sans-serif;
-  font-style: bolder;
   font-weight: 900;
 }
 
