@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 html,
 body,
@@ -87,7 +88,8 @@ video {
   border: 0;
   font: inherit;
   font-size: 100%;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -101,30 +103,37 @@ hgroup,
 menu,
 nav,
 section {
-  display: block; }
+  display: block;
+}
 
 ol,
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
 blockquote,
 q {
-  quotes: none; }
+  quotes: none;
+}
 
-blockquote::before, blockquote::after {
+blockquote::before,
+blockquote::after {
   content: "";
-  content: none; }
+  content: none;
+}
 
-q::before, q::after {
+q::before,
+q::after {
   content: "";
-  content: none; }
+  content: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 a {
   text-decoration: none;
-color:black }
-
-/*# sourceMappingURL=all.css.map */
+  color: black;
+}
