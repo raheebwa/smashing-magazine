@@ -64,6 +64,10 @@
     border-radius: 50%;
 }
 
+.write-up>a{
+    color:whitesmoke
+}
+
 .write-up{
     /* background-color: grey; */
     width:60%;
@@ -76,6 +80,7 @@
     font-family: 'Nunito Sans', sans-serif;
     font-style:bolder;
     font-weight: 900;
+
     }
 
 .author{
