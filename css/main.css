@@ -73,7 +73,6 @@
 }
 
 .write-up {
-  /* background-color: grey; */
   width: 60%;
   height: 40%;
   font-size: 42px;
@@ -109,7 +108,6 @@
 
 .strategy,
 .let {
-  /* background-color: #5e5454; */
   padding: 10px;
 }
 
@@ -164,8 +162,6 @@
 .tc-column .article-content {
   margin-top: 1vh;
   padding: 2vh 1vw;
-
-  /* background-color: silver; */
 }
 
 ul.article-content {
@@ -178,8 +174,6 @@ ul.article-content {
   line-height: 2rem;
   font-size: 1.3rem;
   color: #4d4d4d;
-
-  /* background-color: silver; */
 }
 
 .latest-posts .lp-container .double-content {
@@ -188,7 +182,6 @@ ul.article-content {
 }
 
 .latest-posts .lp-container .double-content .col {
-  /* background-color: #cdcdcd; */
   padding: 2vh 1.5vw;
   margin-right: 2vw;
   margin-top: 5vh;
@@ -218,13 +211,11 @@ ul.article-content {
 }
 
 .latest-posts .lp-container .double-content .large-col .lc-image {
-  /* width: 20vw; */
   margin-top: 2vh;
   padding: 2vh 1vw;
 }
 
 .latest-posts .lp-container .double-content .large-col .lc-heading {
-  /* margin-top: 2vh; */
   padding: 2vh 1vw;
 }
 
