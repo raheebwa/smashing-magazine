@@ -4,10 +4,11 @@
     grid-template-rows: repeat(14,100px);
     background-color:#a09c9c;
     width:100%;
+    color:white
 }
 
-.main-posts1, .main-posts4, .main-posts2{
-    background-color: white;
+.main-posts1, .main-posts4, .main-posts2, .main-posts3{
+    background-color: #C6C6C6;
     grid-row:1/8;
     grid-column:1/3;
     padding:40px
@@ -37,9 +38,12 @@
     display:flex;
     flex-direction: column;
    font-size:28px;
-   font-family: 'Source Serif Pro', serif;
+   font-family: 'Nunito Sans', sans-serif;
+   font-style:bold;
+   font-weight: 800;
    margin-top:30px;
-   padding:20px
+   padding:20px;
+   color:black
 }
 
 .div1 ,.div2{
@@ -58,26 +62,38 @@
     background-color: black;
     text-align: center;
     border-radius: 50%;
-    margin-bottom: 25px;
-    margin-top:20%
 }
 
 .write-up{
     /* background-color: grey; */
     width:60%;
     height:40%;
-    font-size:26px;
+    font-size:42px;
     padding:10px;
     margin-top:10px ;
-    /* line-height: 1.6; */
-    margin-left:25px;
-    font-family:sans-serif
+    line-height: 1.;
+    margin-left:48px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style:bolder;
+    font-weight: 900;
+    }
+
+.author{
+    display: flex;
+    margin-bottom: 25px;
+    margin-top:20%;
+    margin-left:50px
 }
+ .author-name{
+     margin-top:25px;
+     padding-left:25px;
+     font-size:20px
+ }
 
 .divine{
     display:flex;
-    padding-top:50px;
-    margin-left: 25px;
+    padding-top:18%;
+    margin-left: 50px;
     font-weight:bold
 
 }
