@@ -79,7 +79,7 @@
   font-size: 42px;
   padding: 10px;
   margin-top: 10px;
-  line-height: 1.;
+  line-height: 1;
   margin-left: 48px;
   font-family: 'Nunito Sans', sans-serif;
   font-style: bolder;
@@ -104,7 +104,7 @@
   padding-top: 30%;
   margin-left: 50px;
   font-weight: bold;
-  color:#777777
+  color: #777;
 }
 
 .strategy,
@@ -119,63 +119,76 @@
   color: #4d4d4d;
 }
 
-.latest-posts .lp-heading {
+.lp-heading {
   writing-mode: vertical-lr;
   text-orientation: sideways;
   position: absolute;
   left: 2vw;
+  height: 50vh;
+  font-size: 1.5rem;
 }
 
-.latest-posts .lp-container {
+.lp-container {
   margin-top: 4vh;
   display: flex;
   flex-direction: column;
 }
 
-.latest-posts .lp-container .tripple-content {
+.tripple-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.latest-posts .lp-container .tripple-content .tc-column {
+.tc-column {
   background-color: #cdcdcd;
-  padding: 2vh 1.5vw;
+  padding: 2vh 1vw;
   margin-right: 2vw;
 }
 
-.latest-posts .lp-container .tripple-content .tc-column .tc-column-header .date {
+.tc-column .tc-column-header .date {
   margin-top: 1vh;
   padding: 1vh 1vw;
-  background-color: #b8b8b8;
 }
 
-.latest-posts .lp-container .tripple-content .tc-column .tc-column-header .article-title {
+.tc-column .tc-column-header .article-title {
   font-size: 2rem;
   margin-top: 1vh;
   padding: 2vh 1vw;
-  background-color: #a6a6a6;
 }
 
-.latest-posts .lp-container .tripple-content .tc-column .tc-column-header .article-author {
+.tc-column .tc-column-header .article-author {
   margin-top: 1vh;
   padding: 1vh 1vw;
-  background-color: #bbb;
 }
 
-.latest-posts .lp-container .tripple-content .tc-column .article-content {
+.tc-column .article-content {
   margin-top: 1vh;
-  padding: 5vh 1vw;
-  background-color: silver;
+  padding: 2vh 1vw;
+
+  /* background-color: silver; */
+}
+
+ul.article-content {
+  list-style: inside;
+  color: #8d8d8d;
+}
+
+.article-content li a {
+  text-decoration: underline;
+  line-height: 2rem;
+  font-size: 1.3rem;
+  color: #4d4d4d;
+
+  /* background-color: silver; */
 }
 
 .latest-posts .lp-container .double-content {
   display: grid;
   grid-template-columns: 5fr 10fr;
-  grid-template-rows: repeat(5, 1fr);
 }
 
 .latest-posts .lp-container .double-content .col {
-  background-color: #cdcdcd;
+  /* background-color: #cdcdcd; */
   padding: 2vh 1.5vw;
   margin-right: 2vw;
   margin-top: 5vh;
@@ -183,6 +196,7 @@
 
 .latest-posts .lp-container .double-content .small-col {
   grid-row-start: span 3;
+  padding: 2vh 0;
 }
 
 .latest-posts .lp-container .double-content .small-col .advert-heading {
@@ -197,29 +211,90 @@
 }
 
 .latest-posts .lp-container .double-content .large-col {
-  grid-row-start: span 5;
   border-radius: 10px;
   background-color: #8d8d8d;
+  color: silver;
+  text-align: center;
 }
 
 .latest-posts .lp-container .double-content .large-col .lc-image {
-  width: 20vw;
-  border-radius: 50%;
-  margin: 0 auto;
+  /* width: 20vw; */
   margin-top: 2vh;
-  padding: 10vh 1vw;
-  background-color: #b3b3b3;
+  padding: 2vh 1vw;
 }
 
 .latest-posts .lp-container .double-content .large-col .lc-heading {
-  margin-top: 2vh;
+  /* margin-top: 2vh; */
   padding: 2vh 1vw;
-  background-color: silver;
+}
+
+.lc-heading h1 {
+  margin: 0 auto;
+  font-size: 3rem;
+}
+
+.large-button {
+  vertical-align: middle;
+  color: #8d8d8d;
+  font-size: 1.7rem;
+  background-color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  margin: 3vh 0;
 }
 
 .latest-posts .lp-container .double-content .large-col .lc-content {
   margin-top: 2vh;
-  padding: 10vh 1vw;
-  background-color: #cdcdcd;
+  padding: 5vh 1vw;
+  font-size: 2rem;
 }
 
+.img-holder {
+  border-radius: 50%;
+}
+
+.red-section {
+  background-color: #a6a6a6;
+  display: grid;
+  grid-template-columns: 10fr 5fr;
+  padding: 7vh 5vw;
+  color: #404040;
+}
+
+.red-section .content-sec .featured {
+  font-family: 'Nunito Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.red-section .content-sec .section-head {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.red-section .content-sec .body {
+  font-size: 1.3rem;
+}
+
+.red-section .content-sec .toc-button {
+  vertical-align: middle;
+  color: #8d8d8d;
+  font-size: 1.7rem;
+  background-color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  margin: 3vh 0;
+}
+
+.red-section .content-sec .toc-button:hover {
+  color: #343434;
+  border: 1px solid #343434;
+}
+
+.red-section .rs-image {
+  float: right;
+  border-radius: 50%;
+}
