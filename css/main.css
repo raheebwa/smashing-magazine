@@ -1,35 +1,33 @@
 .featured-posts{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(10,100px);
+    grid-template-rows: repeat(14,100px);
     background-color:#a09c9c;
     width:100%;
 }
 
-.main-posts1{
+.main-posts1, .main-posts4, .main-posts2{
     background-color: white;
-    grid-row:1/6;
-    grid-column:1/3
+    grid-row:1/8;
+    grid-column:1/3;
+    padding:40px
 }
 
-.main-posts2{
+.main-posts2, .main-posts3{
     background-color:  rgb(105, 101, 101);
-    grid-row:1/6;
     grid-column:3/5
 
 }
 
-.main-posts3{
-    background-color: rgb(105, 101, 101);
-    grid-row:6/11;
+.main-posts3, .main-posts4{
+    grid-row:8/15;
     grid-column:1/3
 }
 
 
 
 .main-posts4{
-    background-color: white;
-    grid-row:6/11;
+    
     grid-column: 3/5
 }
 .center-div{
@@ -38,42 +36,47 @@
     text-align: center;
     display:flex;
     flex-direction: column;
-   font-size:20px;
-   margin-top:30px
+   font-size:28px;
+   font-family: 'Source Serif Pro', serif;
+   margin-top:30px;
+   padding:20px
 }
 
 .div1 ,.div2{
     background-color:rgb(226, 217, 217);
-    width:40%;
+    width:60%;
     margin: 0px auto;
+    padding:10px
 }
 
 .div2{
     width:20%
 }
 .image{
-    /* width:20%; */
-    height:20%;
-    /* background-color: #a09c9c; */
+    width:70px;
+    height:70px;
+    background-color: black;
     text-align: center;
     border-radius: 50%;
-    margin-left: 25px
+    margin-bottom: 25px;
+    margin-top:20%
 }
 
 .write-up{
     /* background-color: grey; */
     width:60%;
     height:40%;
-    font-size:28px;
+    font-size:26px;
     padding:10px;
     margin-top:10px ;
-    line-height: 1.6;
-    margin-left:25px
+    /* line-height: 1.6; */
+    margin-left:25px;
+    font-family:sans-serif
 }
 
 .divine{
     display:flex;
-    margin-top:40px;
+    padding-top:50px;
     margin-left: 25px;
     font-weight:bold
 
